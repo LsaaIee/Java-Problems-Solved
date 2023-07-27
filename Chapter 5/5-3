@@ -42,3 +42,44 @@ class SwitchBreak{
         System.out.println("Do you like Java?");
     }
 }
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+/* change if~else statement to switch statement */
+
+/*class NumberRange{
+    public static void main(String[] args){
+        int n = 24;
+        if (n >= 0 && n < 10){
+            System.out.println("n >= 0, n < 10");
+        }
+        else if (n >= 10 && n < 20){
+            System.out.println("n >= 10, n < 20");
+        }
+        else if (n >= 20 && n < 30){
+            System.out.println("n >= 20, n < 30");
+        }
+        else {
+            System.out.println("n is either negative or over 30");
+        }
+    }
+}*/
+
+class NumberRange{
+    public static void main(String[] args){
+        int n = 24;
+        
+        switch(n/10){
+        case 0: 
+            System.out.println("n >= 0, n < 10");
+            break;
+        case 1:
+            System.out.println("n >= 10, n < 20");
+            break;
+        case 2:
+            System.out.println("n >= 20, n < 30");
+            break;
+        default:
+            System.out.println("n is either negative or over 30");
+        }
+    }
+}
