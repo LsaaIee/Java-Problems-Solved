@@ -1,0 +1,46 @@
+/* using while loop, get the addition from 1 to 99 */
+
+class addition{
+    public static void main(String[] args){
+        int n = 1;
+        int sum = 0;
+        while (n < 100){
+            sum+=n;
+            n++;
+        }
+        System.out.println(sum);
+    }
+}
+
+
+/* make a program that prints 1 to 100 and 100 to 1 using while loop and do~while loop */
+
+class asdf{
+    public static void main(String[] args){
+        int i = 1;
+        int j = 101;
+        
+        while (i < 101){
+            System.out.println(i);
+            i++;
+        }
+        
+        do {
+            j--;
+            System.out.println(j);
+        } while (j > 1);
+    }
+}
+
+
+/* print numbers that are both multiple of 2 and 7 that is less than 1000. Then print those numbers' sum */
+
+class mltSum{
+    public static void main(String[] args){
+        int i = 1;
+        int sum = 0;
+        while (i < 1000){
+            sum = 
+        }
+    }
+}
