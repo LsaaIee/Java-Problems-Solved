@@ -1,0 +1,23 @@
+/* change the below code that uses only one if statement */
+
+/*
+class IfReit{
+    public static void main(String[] args){
+        int num = 120;
+        if (num > 0){
+            if ((num%2) == 0){
+                System.out.println("Number that is positive and even");
+            }
+        }
+    }
+}
+*/
+
+class IfReit{
+    public static void main(String[] args){
+        int num = 120;
+        if (num > 0 && (num%2) == 0){
+            System.out.println("the number is positive and even");
+        }
+    }
+}
